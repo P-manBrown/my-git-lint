@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "zeitwerk", "~> 2.5"
 
   spec.bindir = "exe"
-  spec.executables << "git-lint"
+  spec.executables << "my-git-lint"
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
   spec.files = Dir["*.gemspec", "lib/**/*"]
 end
