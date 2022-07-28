@@ -6,7 +6,7 @@ Bundler.require :tools
 require "simplecov"
 SimpleCov.start { enable_coverage :branch }
 
-require "git/lint"
+require "my_git/lint"
 require "refinements"
 
 require "git_plus/spec/shared_contexts/temp_dir"

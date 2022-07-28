@@ -8,7 +8,7 @@ RSpec.shared_context "with commit system dependencies" do
   let(:repository) { instance_spy GitPlus::Repository, branch_default: "main", branch_name: "test" }
   let(:executor) { class_spy Open3 }
 
-  before { Git::Lint::Import.stub repository:, executor: }
+  before { MyGit::Lint::Import.stub repository:, executor: }
 
-  after { Git::Lint::Import.unstub :repository, :executor }
+  after { MyGit::Lint::Import.unstub :repository, :executor }
 end

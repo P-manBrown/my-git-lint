@@ -95,7 +95,7 @@ requirement to the top of your `Rakefile`:
 
 [source,ruby]
 ----
-require "git/lint/rake/setup"
+require "my_git/lint/rake/setup"
 ----
 
 Now, when running `bundle exec rake -T`, you'll see `git_lint` included in the list.

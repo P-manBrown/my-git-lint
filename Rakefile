@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "bundler/setup"
-require "git/lint/rake/setup"
+require "my_git/lint/rake/setup"
 require "reek/rake/task"
 require "rspec/core/rake_task"
 require "rubocop/rake_task"
