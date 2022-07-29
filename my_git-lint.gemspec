@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "my_git-lint"
-  spec.version = "1.1.0"
+  spec.version = "1.0.0"
   spec.authors = ["P-man Brown"]
   spec.homepage = "https://github.com/P-manBrown/my-git-lint"
   spec.summary = "A gem based on git-lint with some changes about the config file."
